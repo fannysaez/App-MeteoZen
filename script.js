@@ -36,14 +36,15 @@ async function getWeather(city) {
 
         // Mise à jour de l'affichage
         document.getElementById("city-name").innerText = `🌍 ${data.name}, ${data.sys.country}`;
-        document.getElementById("temperature").innerText = `🌡️ Température : ${data.main.temp}°C`;
+        document.getElementById("temperature").innerText = `🌡️ ${data.main.temp}°C`;
         document.getElementById("description").innerText = `☁️ ${data.weather[0].description}`;
         document.getElementById("weather-icon").src = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
         document.getElementById("weather-icon").alt = data.weather[0].description;
-        document.getElementById("humidity").innerText = `💧 Humidité : ${data.main.humidity}%`;
-        document.getElementById("wind").innerText = `🌬️ Vent : ${data.wind.speed} km/h`;
-
+        document.getElementById("humidity").innerText = `💧  ${data.main.humidity}%`;
+        document.getElementById("wind").innerText = `🌬️ ${data.wind.speed} km/h`;
+        
         console.log(`✅ Requête réussie depuis ${appName} pour ${data.name}`);
+        
     } catch (error) {
         alert(error.message);
         console.error("❌ Erreur :", error);
