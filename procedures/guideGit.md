@@ -8,6 +8,7 @@
 ```bash
 git clone <URL_DU_DEPOT>
 cd <nom_du_dossier>
+```
 
 <p align="center">
 <a href="procedures/creaBranch.md">Suivant</a>
