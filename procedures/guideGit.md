@@ -11,5 +11,5 @@ cd <nom_du_dossier>
 ```
 
 <p align="center">
-<a href="procedures/creaBranch.md">Suivant</a>
+<a href="./creaBranch.md">Suivant</a>
 </p>
