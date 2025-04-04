@@ -20,5 +20,9 @@
 │   │   └── vent.png  
 ├── index.html ------------->  # Page principale de l'application  
 ├── script.js ------------->   # Logique JS  
-└── readme.md ------------->   # Documentation du projet  
+└── readme.md ------------->   # Documentation du projet
+
+<p align="center">
+  <a href="procedures/guideGit.md">Suivant</a>
+</p>
 
