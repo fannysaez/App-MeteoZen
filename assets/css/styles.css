@@ -1,6 +1,6 @@
 /* ---------- Global styles ---------- */
 body {
-    background-image: url(/assets/img/fond_meteo.png);
+    background-image: url(./../img/fond_meteo.png);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -64,10 +64,14 @@ h1 {
 }
 
 #search-btn img {
-    height: 20px;   /* Ajustez la hauteur selon vos besoins */
-    width: auto;    /* Laisse la largeur s'ajuster en fonction de la hauteur */
-    vertical-align: middle; /* Aligne l'image verticalement au centre */
-    margin: 0 10px; /* Ajoute un peu d'espace à gauche et à droite de l'image */
+    height: 20px;
+    /* Ajustez la hauteur selon vos besoins */
+    width: auto;
+    /* Laisse la largeur s'ajuster en fonction de la hauteur */
+    vertical-align: middle;
+    /* Aligne l'image verticalement au centre */
+    margin: 0 10px;
+    /* Ajoute un peu d'espace à gauche et à droite de l'image */
 }
 
 #search-btn:hover {
@@ -120,7 +124,8 @@ h1 {
     }
 
     /* Input et bouton de recherche */
-    #city-input, #search-btn {
+    #city-input,
+    #search-btn {
         width: 100%;
         max-width: 350px;
         font-size: 1.2rem;
@@ -149,7 +154,8 @@ h1 {
     }
 
     /* Input et bouton de recherche */
-    #city-input, #search-btn {
+    #city-input,
+    #search-btn {
         width: 90%;
         font-size: 1.1rem;
     }
