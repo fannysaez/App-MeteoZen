@@ -1,35 +1,59 @@
 /* ---------- Global styles ---------- */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-  body {
-
-    background-color: #ffffff;
+body {
+    background-image: url(/assets/img/fond_meteo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
-  }
-h1
-{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+    background-color: rgba(255, 255, 255, 0.297);
+    border-radius: 20px;
+}
+
+/* Titre */
+h1 {
     font-size: 2.5rem;
-    color: #0950df;
+    color: #ffffff;
+    text-shadow: 5px 5px 5px rgba(10, 10, 10, 10);
     text-align: center;
     margin-top: 20px;
 }
-#city-input{
 
+/* Container pour l'input et le bouton */
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+/* Input de ville */
+#city-input {
     border-radius: 20px;
     border: 1px solid #0950df;
     padding: 10px 20px;
-    width: 300px;
+    width: 250px;
     font-size: 1rem;
     margin-top: 20px;
-
+    margin-right: 15px;
     color: #0950df;
-    
 }
-#search-btn{
+
+/* Bouton de recherche */
+#search-btn {
     border-radius: 20px;
     background-color: #ffffff;
     color: #980909;
@@ -38,27 +62,107 @@ h1
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
-#search-btn:hover{
-    background-color: #0950df;
+
+#search-btn img {
+    height: 20px;   /* Ajustez la hauteur selon vos besoins */
+    width: auto;    /* Laisse la largeur s'ajuster en fonction de la hauteur */
+    vertical-align: middle; /* Aligne l'image verticalement au centre */
+    margin: 0 10px; /* Ajoute un peu d'espace à gauche et à droite de l'image */
+}
+
+#search-btn:hover {
+    background-color: #ccccce;
     color: #ffffff;
     border-color: #ffffff;
 }
-#weather-info{
-    
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 300px;
-        width: 400px;
-        border-radius: 25px;
-        background: lightgrey;
-        overflow: hidden;
-        transition: 100ms ease;
-        box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 4px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      
+
+/* Style de la carte météo */
+#weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 450px;
+    max-width: 100%;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.657);
+    overflow: hidden;
+    transition: 100ms ease;
+    box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 4px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Image météo */
+#weather-info img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Contenu texte dans la carte */
+#weather-info h2,
+#weather-info p {
+    margin: 10px 0;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+/* ---------- Responsive Design ---------- */
+
+/* Quand l'écran est plus petit que 768px (tablettes et mobiles) */
+@media (max-width: 768px) {
+
+    /* Titre */
+    h1 {
+        font-size: 2rem;
+    }
+
+    /* Input et bouton de recherche */
+    #city-input, #search-btn {
+        width: 100%;
+        max-width: 350px;
+        font-size: 1.2rem;
+        margin-top: 15px;
+    }
+
+    /* La carte météo s'ajuste pour les petits écrans */
+    #weather-info {
+        width: 90%;
+        max-width: 400px;
+        padding: 10px;
+    }
+
+    /* Image de la carte météo */
+    #weather-info img {
+        max-width: 120px;
+    }
+}
+
+/* Quand l'écran est plus petit que 480px (mobiles en portrait) */
+@media (max-width: 480px) {
+
+    /* Titre */
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    /* Input et bouton de recherche */
+    #city-input, #search-btn {
+        width: 90%;
+        font-size: 1.1rem;
+    }
+
+    /* La carte météo devient plus petite */
+    #weather-info {
+        width: 100%;
+        max-width: 320px;
+        padding: 10px;
+    }
+
+    /* Image de la carte météo */
+    #weather-info img {
+        max-width: 100px;
+    }
 }
