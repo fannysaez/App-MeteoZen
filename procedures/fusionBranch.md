@@ -16,15 +16,15 @@ git merge fanny
 git push origin main
 ``` 
 
-# Fusion de amine
+# Fusion de Amine
 ``` bash
-git merge amine
+git merge Amine
 git push origin main
 ```
 
-# Fusion de noemie
+# Fusion de Noémie
 ``` bash
-git merge noemie
+git merge Noémie
 git push origin main
 ``` 
 
