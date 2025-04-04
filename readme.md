@@ -2,10 +2,6 @@
 
 ## 📁 Structure du projet
 
-# 📚 Documentation App-MeteoZen
-
-## 📁 Structure du projet
-
 📁 App-MeteoZen  
 ├── 📂 assets/                  # Dossier contenant les ressources du projet  
 │   ├── 📂 css/                 # Feuilles de style  
