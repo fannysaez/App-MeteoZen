@@ -6,9 +6,11 @@ Application météo collaborative développée en HTML, CSS et JavaScript. Elle 
 
 - [Objectif du projet](#objectif-du-projet)
 - [Technologies utilisées](#technologies-utilisées)
+- [Répartition des rôles](#repartition-des-roles)
+- [Clé API OpenWeatherMap](#Clé-API-OpenWeatherMap)
 - [Structure du projet](#structure-du-projet)
 - [Procédure Git collaborative](#procédure-git-collaborative)
-- [Contributeurs](#contributeurs)
+
 
 ---
 
@@ -45,7 +47,7 @@ Créer une application météo dynamique et responsive avec une recherche de vil
   * Obtenir une clé API gratuite
 
   * Exemple de requête API :
-  
+
 ``` bash
 const API_KEY = 'votre_clé';
 const url = `https://api.openweathermap.org/data/2.5/weather?q=Clermont-Ferrand&appid=${API_KEY}&units=metric&lang=fr`;
