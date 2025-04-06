@@ -9,7 +9,7 @@ Application météo collaborative développée en HTML, CSS et JavaScript. Elle 
 - [Répartition des rôles](#repartition-des-roles)
 - [Clé API OpenWeatherMap](#Clé-API-OpenWeatherMap)
 - [Structure du projet](#structure-du-projet)
-- [Procédure Git collaborative](#procédure-git-collaborative)
+- [Procédure Git collaborative](guideGit.md)
 
 
 ---
