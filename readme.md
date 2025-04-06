@@ -28,6 +28,16 @@ Créer une application météo dynamique et responsive avec une recherche de vil
 
 ---
 
+## 🔄 Répartition des rôles
+
+| Membre     | Tâches principales                       |
+|------------|-------------------------------------------|
+| Fanny      | Sructure de la page index.html        |
+| Amine + Noémie     | Design CSS + Responsivité                |
+| Fanny + Amine + Noémie     | Affichage dynamique avec JavaScript      |
+
+---
+
 ## 📁 Structure du projet
 
 📁 App-MeteoZen  
