@@ -1,4 +1,32 @@
-# Documentation sur la procédure des cmd de git pour le travail en collaboratif
+# App-MeteoZen
+
+Application météo collaborative développée en HTML, CSS et JavaScript. Elle permet de rechercher la météo d’une ville via l’API OpenWeatherMap.
+
+## Table des matières
+
+- [Objectif du projet](#objectif-du-projet)
+- [Technologies utilisées](#technologies-utilisées)
+- [Structure du projet](#structure-du-projet)
+- [Procédure Git collaborative](#procédure-git-collaborative)
+- [Contributeurs](#contributeurs)
+
+---
+
+## Objectif du projet
+
+Créer une application météo dynamique et responsive avec une recherche de ville, un affichage des données météo en temps réel, un beau design, et une documentation claire.
+
+---
+
+## Technologies utilisées
+
+- HTML5
+- CSS3
+- JavaScript
+- API OpenWeatherMap
+- Git & GitHub
+
+---
 
 ## 📁 Structure du projet
 
