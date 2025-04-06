@@ -6,7 +6,7 @@ Quand tout le monde a terminé, on fusionne les branches dans main :
 
 ---
 
-# Revenir sur main
+### Revenir sur main
 ``` bash
 git checkout main
 git pull origin main
@@ -14,7 +14,7 @@ git pull origin main
 
 ---
 
-# Fusion de fanny
+### Fusion de fanny
 ``` bash
 git merge fanny
 git push origin main
@@ -22,7 +22,7 @@ git push origin main
 
 ---
 
-# Fusion de Amine
+### Fusion de Amine
 ``` bash
 git merge Amine
 git push origin main
@@ -30,7 +30,7 @@ git push origin main
 
 ---
 
-# Fusion de Noémie
+### Fusion de Noémie
 ``` bash
 git merge Noémie
 git push origin main
@@ -39,5 +39,5 @@ git push origin main
 ---
 
 <p align="center">
-<a href="../readme.md">Suivant</a>
+<a href="./deploiementGithubPages.md">Suivant</a>
 </p>
