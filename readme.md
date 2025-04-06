@@ -38,6 +38,22 @@ Créer une application météo dynamique et responsive avec une recherche de vil
 
 ---
 
+## 🔑 Clé API OpenWeatherMap
+
+  * Créer un compte sur openweathermap.org
+
+  * Obtenir une clé API gratuite
+
+  * Exemple de requête API :
+  
+``` bash
+const API_KEY = 'votre_clé';
+const url = `https://api.openweathermap.org/data/2.5/weather?q=Clermont-Ferrand&appid=${API_KEY}&units=metric&lang=fr`;
+``` 
+
+--- 
+
+
 ## 📁 Structure du projet
 
 📁 App-MeteoZen  
