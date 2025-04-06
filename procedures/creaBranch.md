@@ -2,7 +2,7 @@
 
 2. Créer et basculer sur une nouvelle branche
 
-Chacun crée sa propre branche à partir de main :
+- Chacun crée sa propre branche à partir de main :
 
 ### Se placer sur main et récupérer les dernières modifications
 ```bash
