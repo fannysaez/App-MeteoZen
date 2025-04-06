@@ -1,4 +1,4 @@
-# 📘 Guide Git : Collaboration à 3 avec Fusion dans la branche `main`
+# 📘 Objectif du projet
 
 ---
 
