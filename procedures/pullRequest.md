@@ -6,7 +6,7 @@
 
 1. Sur GitHub:
 
-       * Aller dans "Pull requests" > "New pull request"
+    * Aller dans "Pull requests" > "New pull request"
 
         * Sélectionner:
 
