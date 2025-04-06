@@ -44,11 +44,13 @@
 
 4. Merge:
 
-       * Après approbation, cliquer "Merge pull request"
+    * Après approbation, cliquer "Merge pull request"
 
-       * Option: "Squash and merge" pour un historique propre
+    * Option: "Squash and merge" pour un historique propre
 
-       * Supprimer la branche distante (optionnel
+    * Supprimer la branche distante (optionnel
+
+---
 
 <p align="center">
 <a href="./fusionBranch.md">Suivant</a>
