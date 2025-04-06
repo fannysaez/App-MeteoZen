@@ -1,19 +1,31 @@
 # 📘 Guide Git : Collaboration à 3 avec Fusion dans la branche `main`
 
+---
+
 ## 🛠️ Prérequis
 
 - Avoir `git` installé
 - Avoir accès au dépôt distant (ex. : GitHub)
 - Cloner le dépôt sur votre machine
 
-Procédure Git collaborative
-1. Cloner le dépôt GitHub
+---
+
+## 🚀 Étapes de Collaboration Git & GitHub
+
+### 1. Création du dépôt GitHub (par un membre)
+- Nom du dépôt : `app-meteozen`
+- Ajout des collaborateurs : Fanny, Amine, Noémie
+
+--- 
+
+### 2. Clonage du projet (pour chaque membre)
 
 ```bash
-git clone https://github.com/fannysaez/App-MeteoZen.git
-cd App-MeteoZen
-
+git clone https://github.com/fannysaez/app-meteozen.git
+cd app-meteozen
 ```
+
+---
 
 <p align="center">
 <a href="./creaBranch.md">Suivant</a>
