@@ -48,7 +48,7 @@
 
     * Option: "Squash and merge" pour un historique propre
 
-    * Supprimer la branche distante (optionnel
+    * Supprimer la branche distante (optionnel)
 
 ---
 
