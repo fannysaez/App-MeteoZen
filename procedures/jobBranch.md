@@ -24,5 +24,5 @@ git push origin <nom_de_branche>
 ``` 
 
 <p align="center">
-<a href="./fusionBranch.md">Suivant</a>
+<a href="./pullRequest.md">Suivant</a>
 </p>
