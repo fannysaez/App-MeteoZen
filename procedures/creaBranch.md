@@ -1,4 +1,4 @@
-# 1️⃣ Création des branches collaboratives
+# Création des branches collaboratives
 
 2. Créer et basculer sur une nouvelle branche
 
