@@ -32,13 +32,13 @@
 
     * Le membre assigné vérifie:
 
-           * Qualité du code
+        * Qualité du code
 
-           * Fonctionnalité
+        * Fonctionnalité
 
-           * Absence de conflits
+        * Absence de conflits
 
-       * Peut laisser des commentaires précis
+        * Peut laisser des commentaires précis
 
 ---
 
