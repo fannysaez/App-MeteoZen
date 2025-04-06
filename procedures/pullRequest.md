@@ -1,5 +1,8 @@
-6. Intégration Continue
-# Processus de Pull Request
+# Intégration Continue
+
+---
+
+### Processus de Pull Request (Exemple)
 
 1. Sur GitHub:
 

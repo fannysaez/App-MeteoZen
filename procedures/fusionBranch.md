@@ -1,4 +1,4 @@
-3️⃣ Fusion des branches dans main
+# Fusion des branches dans main
 
 Quand tout le monde a terminé, on fusionne les branches dans main :
 - Option 1 (via ligne de commande)
