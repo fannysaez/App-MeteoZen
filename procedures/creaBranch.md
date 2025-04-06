@@ -1,5 +1,7 @@
 # 1️⃣ Création des branches collaboratives
 
+2. Créer et basculer sur une nouvelle branche
+
 Chacun crée sa propre branche à partir de main :
 
 ### Se placer sur main et récupérer les dernières modifications
@@ -24,6 +26,23 @@ git push Amine
 ``` bash
 git checkout -b Noémie
 git push Noémie
+```
+
+3. Travailler sur votre branche
+
+Faites vos modifications dans les fichiers HTML, CSS ou JS.
+
+4. Ajouter et valider les modifications
+
+``` bash
+git add .
+git commit -m "Ajout de la barre de recherche"
+```
+
+5. Pousser votre branche sur GitHub
+
+``` bash
+git push origin nom-de-ta-branche
 ```
 
 <p align="center">
