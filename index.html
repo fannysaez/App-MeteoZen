@@ -22,15 +22,18 @@
 
         <main>
             <div id="weather-info">
-                <h2 id="city-name">Bienvenue sur l'application</h2> <!-- Message de bienvenue par défaut -->
-                <p id="temperature"></p>
-                <p id="description"></p>
-                <img id="weather-icon" src="assets/img/loading-icon.gif" alt="Chargement...">
-                <!-- Icône de chargement -->
-                <p id="humidity"></p>
-                <p id="wind"></p>
+                <div class="weather-icon">
+                    <img id="weather-icon" src="assets/img/loading-icon.gif" alt="Chargement...">
+                </div>
+                <div class="weather-details">
+                    <h2 id="city-name">Bienvenue sur l'application</h2>
+                    <p id="temperature"></p>
+                    <p id="description"></p>
+                    <p id="humidity"></p>
+                    <p id="wind"></p>
+                </div>
             </div>
-        </main>
+                    </main>
     </div>
 
     <script src="script.js"></script>
