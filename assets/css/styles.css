@@ -66,13 +66,9 @@ h1 {
 
 #search-btn img {
     height: 20px;
-    /* Ajustez la hauteur selon vos besoins */
     width: auto;
-    /* Laisse la largeur s'ajuster en fonction de la hauteur */
     vertical-align: middle;
-    /* Aligne l'image verticalement au centre */
     margin: 0 10px;
-    /* Ajoute un peu d'espace à gauche et à droite de l'image */
 }
 
 #search-btn:hover {
@@ -81,24 +77,23 @@ h1 {
     border-color: #ffffff;
 }
 
+
 /* Style de la carte météo */
 #weather-info {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    width: 450px;
-    max-width: 100%;
+    width: 100%; /* Adaptation complète à l'écran */
+    max-width: 450px;
     border-radius: 25px;
     background: rgba(255, 255, 255, 0.657);
     overflow: hidden;
-    transition: 100ms ease;
     box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 4px;
     padding: 20px;
     margin-top: 20px;
 }
 
-/* Image météo */
 #weather-info img {
     width: 100%;
     max-width: 150px;
@@ -115,7 +110,6 @@ h1 {
 }
 
 /* ---------- Responsive Design ---------- */
-
 /* Quand l'écran est plus petit que 768px (tablettes et mobiles) */
 @media (max-width: 768px) {
 
@@ -166,6 +160,7 @@ h1 {
         width: 100%;
         max-width: 320px;
         padding: 10px;
+        margin: 0 auto; /* Centrage de la carte */
     }
 
     /* Image de la carte météo */
